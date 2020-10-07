@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+  <div class="heading">
+    <h1>Welcome to Tic Tac Toe!</h1>
+  </div>
+
+  <h2>Settings</h2>
+  <div class="settings">
+    <div class="row">
+      <div class="setting">
+        <p>Who goes first?</p>
+        <input type="radio" id="human" name="first" value="human" checked="checked">
+        <label for="human">Human</label><br>
+        <input type="radio" id="computer" name="first" value="computer">
+        <label for="computer">Computer</label><br>
+      </div>
+      <div class="setting">
+        <p>The computer plays:</p>
+        <input type="radio" id="random" name="mode" value="random" checked="checked">
+        <label for="random">Random</label><br>
+        <input type="radio" id="casual" name="mode" value="casual">
+        <label for="casual">Casual</label><br>
+        <input type="radio" id="smart" name="mode" value="smart">
+        <label for="smart">Smart</label><br>
+      </div>
+    </div>
+
+    <div class="row">
+      <div type="button" id="startNow" class="button setButton">
+        <p>
+          Start Now
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <table class="board">
+      <tr>
+        <td class="r1 c1 d1">
+          <div type="button" id="r1c1d1" class="btn button">
+
+          </div>
+        </td>
+        <td class="r1 c2">
+          <div type="button" id="r1c2" class="btn button">
+
+          </div>
+        </td>
+        <td class="r1 c3 d2">
+          <div type="button" id="r1c3d2" class="btn button">
+
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="r2 c1">
+          <div type="button" id="r2c1" class="btn button">
+
+          </div>
+        </td>
+        <td class="r2 c2 d1 d2">
+          <div type="button" id="r2c2d1d2" class="btn button">
+
+          </div>
+        </td>
+        <td class="r2 c3">
+          <div type="button" id="r2c3" class="btn button">
+
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="r3 c1 d2">
+          <div type="button" id="r3c1d2" class="btn button">
+
+          </div>
+        </td>
+        <td class="r3 c2">
+          <div type="button" id="r3c2" class="btn button">
+
+          </div>
+        </td>
+        <td class="r3 c3 d1">
+          <div type="button" id="r3c3d1" class="btn button">
+
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="container">
+    <div type="button" id="playAgain" class="button setButton">
+      <p>
+        Play Again
+      </p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Copyright 2020 by Laura Moon</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>

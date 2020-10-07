@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background-color: #f1f1e8;
+  font-family: 'Architects Daughter', cursive;
+  color: #206a5d;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: #81b214;
+  font-size: 3rem;
+  margin: .2em auto;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: .3em auto;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+.heading {
+    background-color: #bfdcae;
+    margin-top: 0;
+    padding: .2em;
+}
+.board {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.settings {
+  display: block;
+  align-self: center;
+  margin: auto;
+}
+
+.setting {
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  padding-left: 3%;
+  vertical-align: top;
+}
+
+.container {
+  display: block;
+  align-self: center;
+  margin: auto;
+  width: 50%;
+}
+
+.btn {
+  margin: 0;
+  padding-top: 18px;
+  height: 126px;
+  width: 144px;
+  font-size: 72px;
+}
+
+.r1, .r2 {
+  border-bottom: solid #206a5d 10px;
+}
+
+.c1, .c2 {
+  border-right: solid #206a5d 10px;
+}
+
+.setButton {
+  border: solid #206a5d 3px;
+  border-radius: 20%;
+  width: 20%;
+  display: block;
+  align-self: center;
+  margin: 3% auto;
+}
+
+.footer {
+  background-color: #bfdcae;
+  padding: 2em;
+  margin-top: 2em;
+}
